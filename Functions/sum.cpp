@@ -25,9 +25,19 @@ int naturalNoSum(int n){
     return 0;
 }
 
+int factorial(int n){
+    int num = 1;
+    for(int i = n; i > 0;i--){
+        num *= i;
+    }
+    cout << num;
+}
+
 int main (){
     sum (2.33,6.458);
     min(2,6);
     cout << endl;
     naturalNoSum(3);
+    factorial(5);
 }
+
