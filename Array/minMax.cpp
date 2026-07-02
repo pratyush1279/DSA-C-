@@ -26,7 +26,6 @@ int minMax(int arr[], int size){
     
 }
 
-
 int main(){
     int arr[] = {1, 3, 8, 4};
     int size = 4;
