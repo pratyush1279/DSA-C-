@@ -12,6 +12,7 @@ int main(){
     cout << vec.front() << " "; // prints the front value
     cout << vec.back() << " "; // prints the back value
     cout << vec.at(2) << " "; // prints the value at given index
+    cout << vec.capacity() << " "; // prints the capacity
     for( int val : vec){
         cout << val << " ";
     }
